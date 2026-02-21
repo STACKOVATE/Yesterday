@@ -9,7 +9,6 @@ import os
 import requests
 
 def load_config():
-    """加载配置文件"""
     if not os.path.exists("config.json"):
         print("❌ 请先复制 config.example.json 为 config.json 并填入 API Key")
         exit(1)
